@@ -6,4 +6,6 @@ printenv | sed 's/^\(.*\)$/export \1/g' > /usr/src/dumper/.env.sh
 chmod +x /usr/src/dumper/.env.sh
 chmod +x /usr/src/dumper/dumper_script.sh
 
+/usr/src/dumper/dumper_script.sh
+
 cron -f
