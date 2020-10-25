@@ -12,6 +12,7 @@ RUN apt install -y mongodb-org-tools
 # Copy scripts
 COPY dumper_entry.sh .
 COPY dumper_script.sh .
+RUN chmod +x dumper_entry.sh
 
 # Setup cronjob
 RUN mkdir -p /etc/cron.d
