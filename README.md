@@ -1,6 +1,6 @@
 <p align="center">
  <img src="https://raw.githubusercontent.com/opentitles/client/master/images/header.png")/>
- _See https://opentitles.info/ for download links and more information._
+ <i>See https://opentitles.info/ for download links and more information.</i>
 </p>
 
 # OpenTitles Dumper
